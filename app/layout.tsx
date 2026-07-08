@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
+import Navbar from "./components/Navbar/Navbar";
+
 const arialNarrow = localFont({
   src: "../public/fonts/arialnarrow.woff2",
   variable: "--font-arial-narrow",
@@ -20,7 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={arialNarrow.variable}>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
