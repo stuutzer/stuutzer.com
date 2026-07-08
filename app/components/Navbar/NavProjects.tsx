@@ -16,9 +16,10 @@ export default function NavProjects(){
                 <NavProjectItem itemName="AUEC '26 Design Overhaul" date="Sep '25"/>
                 <NavProjectItem itemName="Rage Art Rumble 2025 Round 2 Poster" date="Sep '25"/>
                 <NavProjectItem itemName="AUEC X VUWG Showmatch Poster" date="Apr '25"/>
+                <NavProjectItem itemName="watshisname-stuutzer.com" date="Mar '25"/>
                 <NavProjectItem itemName="Tawhiti Forestry Website" date="Feb '25"/>
                 <NavProjectItem itemName="WINESCI 201 Research Poster" date="Jan '25"/>
-                <NavProjectItem itemName="MTGlossary" date="Nov' 24"/>
+                <NavProjectItem itemName="MTGlossary" date="Nov '24"/>
             </ul>
         </>
     )

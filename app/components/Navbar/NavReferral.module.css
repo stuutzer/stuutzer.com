@@ -1,5 +1,12 @@
 .container{
+    position: relative;
     height: 8.25rem;
     margin: auto 0.3rem 0.3rem;
     outline: 1px solid #9FA4B3;
+    overflow: hidden;
+}
+
+
+.image{
+    object-fit:cover;
 }
