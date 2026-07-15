@@ -2,19 +2,20 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import Project from "@/app/components/Project/Project";
-import { getProjectById } from "@/lib/projects";
+import { getProjectBySlug } from "@/lib/projects";
+import styles from "./page.module.css";
 
 export const dynamic = "force-dynamic";
 
-type Params = { id: string };
+type Params = { slug: string };
 
 export async function generateMetadata({
   params,
 }: {
   params: Promise<Params>;
 }): Promise<Metadata> {
-  const { id } = await params;
-  const project = await getProjectById(id);
+  const { slug } = await params;
+  const project = await getProjectBySlug(slug);
   if (!project) return { title: "Project not found" };
   return {
     title: `${project.title} — stuutzer`,
@@ -27,12 +28,12 @@ export default async function ProjectPage({
 }: {
   params: Promise<Params>;
 }) {
-  const { id } = await params;
-  const project = await getProjectById(id);
+  const { slug } = await params;
+  const project = await getProjectBySlug(slug);
   if (!project) notFound();
 
   return (
-    <main>
+    <main className={styles.main}>
       <Project
         title={project.title}
         client={project.client}

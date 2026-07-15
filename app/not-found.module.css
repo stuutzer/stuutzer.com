@@ -1,0 +1,38 @@
+.main{
+  border-radius: 0.625rem 0.625rem 0 0;
+  outline: 1px solid #9FA4B3;
+  background: #ff0000;
+  height: calc(100% - 8rem);
+  padding: 4rem;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.alert_a{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 44px;
+  letter-spacing: -0.1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.alert_b{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 144px;
+    font-weight: 404;
+    letter-spacing: -0.1rem;
+    line-height: 0.5;
+    position: absolute;
+    text-decoration: none;
+    top: 666px;
+    transform: scaleY(13);
+    z-index: 0;
+}
+
+.mascot{
+  position: absolute;
+  top: 0;
+  right: 0;
+}

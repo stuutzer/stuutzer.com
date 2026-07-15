@@ -2,6 +2,7 @@ import { prisma } from "./prisma";
 
 export type ProjectSummary = {
   id: string;
+  slug: string;
   title: string;
   date: Date;
 };
@@ -16,13 +17,13 @@ export function getProjects() {
 export function getProjectSummaries(): Promise<ProjectSummary[]> {
   return prisma.project.findMany({
     orderBy: { date: "desc" },
-    select: { id: true, title: true, date: true },
+    select: { id: true, slug: true, title: true, date: true },
   });
 }
 
-export function getProjectById(id: string) {
+export function getProjectBySlug(slug: string) {
   return prisma.project.findUnique({
-    where: { id },
+    where: { slug },
     include: { images: { orderBy: { order: "asc" } } },
   });
 }

@@ -20,7 +20,7 @@ export default async function NavProjects() {
         {projects.map((project) => (
           <NavProjectItem
             key={project.id}
-            href={`/projects/${project.id}`}
+            href={`/projects/${project.slug}`}
             itemName={project.title}
             date={formatShortDate(project.date)}
           />
