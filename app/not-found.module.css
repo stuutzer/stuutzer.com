@@ -2,7 +2,7 @@
   border-radius: 0.625rem 0.625rem 0 0;
   outline: 1px solid #9FA4B3;
   background: #ff0000;
-  height: calc(100% - 8rem);
+  height: 100%;
   padding: 4rem;
   position: relative;
   width: 100%;
@@ -35,4 +35,27 @@
   position: absolute;
   top: 0;
   right: 0;
+  max-width: 50%;
+  height: auto;
+}
+
+@media (max-width: 1000px){
+  .main{
+    border-radius: 0.625rem;
+    height: 100%;
+    padding: 3.5rem 1rem 1rem;
+  }
+
+  .alert_a{
+    font-size: 28px;
+  }
+
+  .alert_b{
+    font-size: 80px;
+    top: 22rem;
+  }
+
+  .mascot{
+    max-width: 70%;
+  }
 }

@@ -13,11 +13,25 @@
     background: linear-gradient(180deg, #FFF 0%, #BDD6F2 25%, #F5F6FD 54.81%, #CCDBEF 75%, #E8EFFD 100%);
     border-radius: 1.25rem;
     border: 1px solid #9FA4B3;
+    box-sizing: content-box;
     display: flex;
-    height: 4rem;    
+    height: 4rem;
     justify-content: center;
     margin: 0 0 0.25rem;
-    overflow: visible; 
-    padding: 2rem 14rem 3rem 1rem;       
+    overflow: visible;
+    padding: 2rem 14rem 3rem 1rem;
     width: fit-content;
+}
+
+@media (max-width: 1000px){
+    .header{
+        box-sizing: border-box;
+        height: 9rem;
+        padding: 2rem 4rem 3rem 1rem;
+        width: 100%;
+    }
+
+    .title{
+        font-size: 28px;
+    }
 }

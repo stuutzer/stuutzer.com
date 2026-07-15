@@ -91,3 +91,43 @@
     gap: 4px;
     letter-spacing: -5%;
 }
+
+@media (max-width: 1000px){
+    .images{
+        flex-direction: column;
+        gap: 1rem;
+        height: auto;
+    }
+
+    .image_wrapper{
+        height: auto;
+        max-height: 60vh;
+    }
+
+    .image_wrapper img{
+        height: auto;
+        max-height: 60vh;
+    }
+
+    .title{
+        font-size: 36px;
+    }
+
+    .title_wrapper{
+        height: 7rem;
+    }
+
+    .eyebrow,
+    .subtitle{
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+
+    .description{
+        font-size: 16px;
+    }
+
+    .header{
+        gap: 12px;
+    }
+}
