@@ -56,6 +56,10 @@ export default function ProjectCarousel({ images }: ProjectCarouselProps) {
             const isLoaded = loaded[index];
             return (
               <div key={index} className={styles.slide}>
+                <p className={styles.caption}>
+                  <span className={styles.figure_label}>Fig {index + 1}.</span>{" "}
+                  {image.alt}
+                </p>
                 <a
                   href={image.src}
                   target="_blank"

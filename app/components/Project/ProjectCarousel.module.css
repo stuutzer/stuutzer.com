@@ -19,10 +19,23 @@
 }
 
 .slide{
+    display: flex;
     flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
     height: 100%;
     min-width: 0;
     position: relative;
+}
+
+.caption{
+    font-style: italic;
+    margin: 0;
+}
+
+.figure_label{
+    font-style: normal;
+    font-weight: 600;
 }
 
 .image_wrapper{

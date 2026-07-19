@@ -46,7 +46,7 @@ export default function Project({
           <h1 className={styles.title}>{capitalizeDescenders(title)}</h1>
         </div>
         <div className={styles.subtitle}>
-          {client && <p>For {client}</p>}
+          <p>{client ? `For ${client}` : "Personal Project"}</p>
           {collaborators.length > 0 && (
             <>
               <p>|</p>
