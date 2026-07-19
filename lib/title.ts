@@ -1,3 +1,3 @@
 export function capitalizeDescenders(title: string): string {
-  return title.replace(/[ygp]/g, (ch) => ch.toUpperCase());
+  return title.replace(/[ygpq]/g, (ch) => ch.toUpperCase());
 }

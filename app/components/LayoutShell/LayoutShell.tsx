@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
 import styles from "./LayoutShell.module.css";
+import { MenuProvider, useMenu } from "./MenuContext";
 
 type LayoutShellProps = {
   navHeader: React.ReactNode;
@@ -10,17 +9,8 @@ type LayoutShellProps = {
   children: React.ReactNode;
 };
 
-export default function LayoutShell({
-  navHeader,
-  navBody,
-  children,
-}: LayoutShellProps) {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const pathname = usePathname();
-
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [pathname]);
+function LayoutShellInner({ navHeader, navBody, children }: LayoutShellProps) {
+  const { menuOpen } = useMenu();
 
   return (
     <>
@@ -37,23 +27,14 @@ export default function LayoutShell({
       >
         {children}
       </div>
-      <button
-        type="button"
-        aria-label={menuOpen ? "Close menu" : "Open menu"}
-        aria-expanded={menuOpen}
-        className={styles.toggle}
-        onClick={() => setMenuOpen((v) => !v)}
-      >
-        {menuOpen ? (
-          <span className={styles.toggle_x}>&#10005;</span>
-        ) : (
-          <>
-            <span className={styles.toggle_bar} />
-            <span className={styles.toggle_bar} />
-            <span className={styles.toggle_bar} />
-          </>
-        )}
-      </button>
     </>
+  );
+}
+
+export default function LayoutShell(props: LayoutShellProps) {
+  return (
+    <MenuProvider>
+      <LayoutShellInner {...props} />
+    </MenuProvider>
   );
 }

@@ -14,9 +14,8 @@ export default function NavProjectItem({
 }: NavProjectItemProps) {
   return (
     <li className={styles.project_item}>
-      <Link href={href}>
-        {itemName}{" "}
-        <span className={styles.time}>&#40;{date}&#41;</span>
+      <Link className={styles.project_link} href={href}>
+        {itemName} <span className={styles.time}>&#40;{date}&#41;</span>
       </Link>
     </li>
   );

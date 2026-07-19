@@ -12,7 +12,7 @@ const arialNarrow = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "stuutzer",
+  title: "stuutzer.com",
   description: "Portfolio",
 };
 

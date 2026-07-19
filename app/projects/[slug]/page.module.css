@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1280px){
   .main{
     border-radius: 0.625rem;
     height: 100%;

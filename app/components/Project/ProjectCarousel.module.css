@@ -1,0 +1,67 @@
+.carousel{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0 0 16px;
+}
+
+.viewport{
+    overflow: hidden;
+    padding: 4px 0 4px 6px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    gap: 2rem;
+    height: 42rem;
+    touch-action: pan-y;
+}
+
+.slide{
+    flex: 0 0 auto;
+    height: 100%;
+    min-width: 0;
+    position: relative;
+}
+
+.image_wrapper{
+    background: linear-gradient(
+        90deg,
+        #EDEDED 0%,
+        #F7F7F7 50%,
+        #EDEDED 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    outline: #9F9F9E 1px solid;
+    overflow: hidden;
+    position: relative;
+}
+
+.image_wrapper_loaded{
+    animation: none;
+    background: none;
+}
+
+.image{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
+    visibility: hidden;
+}
+
+.image_loaded{
+    visibility: visible;
+}
+
+@keyframes shimmer{
+    0% { background-position: 100% 0; }
+    100% { background-position: -100% 0; }
+}
