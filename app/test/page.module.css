@@ -1,0 +1,26 @@
+.main{
+  border-radius: 0.625rem 0.625rem 0 0;
+  outline: 1px solid #9FA4B3;
+  background: #FFF;
+  height: 100%;
+  overflow-y: auto;
+  padding: 4rem;
+  width: 100%;
+}
+
+.breakpoint_text{
+    display: none;
+}
+
+@media (max-width: 1280px){
+    .main{
+        border-radius: 0.625rem;
+        height: 100%;
+        overflow-y: auto;
+        padding: 1.5rem 1rem;
+    }
+    .breakpoint_text{
+        display: block;
+    }
+
+}

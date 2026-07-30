@@ -53,6 +53,7 @@
     outline: #9F9F9E 1px solid;
     overflow: hidden;
     position: relative;
+    width: fit-content;
 }
 
 .image_wrapper_loaded{
@@ -63,8 +64,8 @@
 .image{
     display: block;
     height: 100%;
-    width: 100%;
-    object-fit: cover;
+    width: fit-content;
+    object-fit:contain;
     user-select: none;
     -webkit-user-drag: none;
     visibility: hidden;
