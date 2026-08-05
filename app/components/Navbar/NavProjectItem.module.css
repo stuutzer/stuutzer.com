@@ -18,3 +18,9 @@
 .time{
     color: #9F9F9E;
 }
+
+@media (max-width: 640px){
+    .project_item{
+        font-size: 1rem;
+    }
+}

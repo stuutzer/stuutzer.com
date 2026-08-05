@@ -12,3 +12,14 @@
 .project_items{
     margin: 0.7rem 0.65rem 0;
 }
+
+@media (max-width: 640px){
+    .title{
+        font-size: 1.25rem;
+        margin: 0 0.75rem 0.25rem;
+    }
+
+    .project_items{
+        margin: 0.5rem 0.5rem 0;
+    }
+}
