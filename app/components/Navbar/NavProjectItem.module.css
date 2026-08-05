@@ -10,9 +10,17 @@
 
 .project_link{
     display: flex;
+    align-items: center;
     gap: 0.5rem;
     width: 100%;
     padding: 0.25rem;
+}
+
+.active_icon{
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+    object-fit: contain;
 }
 
 .time{
