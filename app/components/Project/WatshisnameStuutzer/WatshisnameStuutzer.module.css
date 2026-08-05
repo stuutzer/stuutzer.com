@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/Aileron-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/Aileron-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/Aileron-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/Aileron-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  color: white;
+  font-family: "Aileron", sans-serif;
+  color-scheme: dark;
+}
+
+.root *,
+.root ul,
+.root li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.root a {
+  color: inherit;
+}
+
+.fadeIn {
+  animation: fadeIn 0.2s ease both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.background {
+  background: url("/background.webp") black no-repeat left 75%;
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.navMain {
+  align-items: center;
+  display: flex;
+  left: 6rem;
+  height: 17.5rem;
+  top: calc(50% - (17.5rem / 2));
+  position: absolute;
+  z-index: 3;
+}
+
+.navLink {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 90%;
+  transition: 0.3s;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+
+.navCurrent {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navLink:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navDisabled {
+  cursor: not-allowed;
+}
+
+.navDisabled:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.menuHeader {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  left: 2.5rem;
+  top: 2.5rem;
+}
+
+.menuButton {
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.menuButton:hover {
+  color: white;
+}
+
+.menuPage {
+  color: rgba(255, 255, 255, 0.8);
+  display: inline;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 0.25rem;
+}
+
+.menuOverlay {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  z-index: 4;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.menuOverlay .navLink {
+  font-size: 3.5rem;
+}
+
+.hpMain {
+  bottom: 8vh;
+  position: absolute;
+  right: 6rem;
+  z-index: 2;
+}
+
+.hpTitle {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+}
+
+.hpAlias {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0 0.5rem 0 0;
+  text-align: end;
+}
+
+.hpName {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 90%;
+  text-align: end;
+}
+
+.hpOccupation {
+  font-size: 2.25rem;
+  font-weight: 300;
+  line-height: 90%;
+  text-align: end;
+}
+
+.hpOccupationMobile {
+  font-size: 2.25rem;
+  font-weight: 300;
+  line-height: 90%;
+  display: none;
+  text-align: center;
+}
+
+.hpText {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0.25rem 0 0;
+  text-align: end;
+}
+
+.wpMain {
+  height: 100%;
+  padding: 0 6rem 0 calc(100% - 6rem - 55%);
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  overflow-y: auto;
+  z-index: 2;
+}
+
+.wpWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 4rem 0;
+}
+
+.wpWorkTop {
+  display: flex;
+}
+
+.wpWorkNumber {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0.5rem 1rem 0 0.5rem;
+}
+
+.wpWorkName {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.wpWorkInfo {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.wpWorkImg {
+  aspect-ratio: 16 / 9;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  width: 100%;
+  max-width: 45rem;
+  object-fit: cover;
+}
+
+.wpWorkBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.wpWorkDesc {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 0 0 1.5rem 0;
+  width: 100%;
+}
+
+.wpWorkAside {
+  font-size: 1.125rem;
+  width: 100%;
+}
+
+.wpWorkResp {
+  margin: 0 0 1rem;
+}
+
+.wpWorkSpan {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.wpWorkLink {
+  font-size: 1.125rem;
+  text-decoration: underline;
+}
+
+.footer {
+  bottom: 6vh;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.25rem;
+  font-weight: 400;
+  left: 6rem;
+  position: absolute;
+  z-index: 3;
+}
+
+.footerLink {
+  transition: 0.2s;
+}
+
+.footerLink:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1400px) {
+  .navMain { left: 4rem; }
+  .hpMain { right: 4rem; }
+  .wpMain { padding: 0 4rem 0 calc(100% - 4rem - 55%); }
+  .footer { left: 4rem; }
+}
+
+@media (max-width: 1280px) {
+  .navMain { display: none; }
+  .menuHeader { display: inline-flex; align-items: baseline; }
+  .hpMain {
+    position: absolute;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .hpTitle {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hpName { text-align: center; }
+  .hpAlias { margin: 0; text-align: center; }
+  .hpOccupation { text-align: center; }
+  .hpText { text-align: center; }
+  .wpMain {
+    position: static;
+    width: 100%;
+    padding: 5rem 3rem 3rem;
+  }
+  .footer {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3vh;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .menuHeader { left: 1.5rem; top: 1.5rem; }
+  .wpMain { padding: 4rem 1.5rem 3rem; }
+  .hpName { font-size: 3rem; }
+  .hpAlias { font-size: 1.25rem; }
+  .hpOccupation { display: none; }
+  .hpOccupationMobile { display: inline; font-size: 2rem; }
+  .hpText { display: none; }
+  .wpWorkNumber { display: none; }
+  .wpWorkName { font-size: 1.8rem; }
+  .wpWorkInfo { font-size: 1.125rem; }
+  .wpWorkDesc { font-size: 1rem; }
+  .wpWorkAside { font-size: 1rem; }
+  .footer { font-size: 1rem; }
+}
