@@ -2,11 +2,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import Project from "@/app/components/Project/Project";
-import WatshisnameStuutzer from "@/app/components/Project/WatshisnameStuutzer/WatshisnameStuutzer";
 import { getProjectBySlug } from "@/lib/projects";
 import styles from "./page.module.css";
-
-const WATSHISNAME_SLUG = "watshisname-stuutzer-com-a83e73b8";
 
 export const dynamic = "force-dynamic";
 
@@ -34,14 +31,6 @@ export default async function ProjectPage({
   const { slug } = await params;
   const project = await getProjectBySlug(slug);
   if (!project) notFound();
-
-  if (slug === WATSHISNAME_SLUG) {
-    return (
-      <main className={`${styles.main} ${styles.mainBleed}`}>
-        <WatshisnameStuutzer />
-      </main>
-    );
-  }
 
   return (
     <main className={styles.main}>

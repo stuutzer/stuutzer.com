@@ -65,7 +65,7 @@ export default function ProjectCarousel({ images }: ProjectCarouselProps) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`${styles.image_wrapper} ${isLoaded ? styles.image_wrapper_loaded : ""}`}
-                  style={{ aspectRatio }}
+                  style={{ aspectRatio: isLoaded ? undefined : aspectRatio }}
                   onClick={handleImageClick}
                 >
                   <img

@@ -8,22 +8,11 @@
   width: 100%;
 }
 
-.mainBleed {
-  padding: 0;
-  overflow: hidden;
-  background: #000;
-}
-
 @media (max-width: 1280px){
   .main{
     border-radius: 0.625rem;
     height: 100%;
     overflow-y: auto;
     padding: 1.5rem 1rem;
-  }
-
-  .mainBleed {
-    padding: 0;
-    overflow: hidden;
   }
 }
