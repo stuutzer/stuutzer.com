@@ -1,15 +1,19 @@
 "use client";
 
+import Link from 'next/link'
+
 import styles from './NavHeader.module.css'
 import { useMenu } from '../LayoutShell/MenuContext'
 
-export default function NavHeader() {
+export default function NavHeader({ titleHref }: { titleHref: string }) {
   const { menuOpen, setMenuOpen } = useMenu();
 
   return (
       <div className={styles.header}>
           <h1 className={styles.title}>
-            stuutzer.com
+            <Link href={titleHref} className={styles.titleLink}>
+              stuutzer.com
+            </Link>
           </h1>
           <button
             type="button"

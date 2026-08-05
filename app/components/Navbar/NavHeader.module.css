@@ -9,6 +9,13 @@
     transform: scaleY(5);
 }
 
+.titleLink{
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    text-decoration: none;
+}
+
 .header{
     align-items: center;
     background: linear-gradient(180deg, #FFF 0%, #BDD6F2 25%, #F5F6FD 54.81%, #CCDBEF 75%, #E8EFFD 100%);

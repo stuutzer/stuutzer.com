@@ -1,12 +1,16 @@
 import styles from "./Navbar.module.css"
 
+import { getProjectSummaries } from "@/lib/projects";
+
 import NavHeader from "./NavHeader";
 import NavAboutBanner from "./NavAboutBanner";
 import NavProjects from "./NavProjects";
 import NavReferral from "./NavReferral";
 
-export function NavHeaderPart() {
-  return <NavHeader />;
+export async function NavHeaderPart() {
+  const [latest] = await getProjectSummaries();
+  const titleHref = latest ? `/projects/${latest.slug}` : "/projects";
+  return <NavHeader titleHref={titleHref} />;
 }
 
 export function NavBodyPart() {

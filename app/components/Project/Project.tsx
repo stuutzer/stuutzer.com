@@ -49,7 +49,7 @@ export default function Project({
           <p>{client ? `For ${client}` : "Personal Project"}</p>
           {collaborators.length > 0 && (
             <>
-              <p>|</p>
+              <p className={styles.subtitle_divider}>|</p>
               <p>In Collaboration with {collaborators.join(", ")}</p>
             </>
           )}

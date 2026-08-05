@@ -21,7 +21,7 @@ export default function NavReferral(){
     return(
         <div className={styles.container}>
             {referral && (
-                <a href={referral.href} target="_blank">
+                <a href={referral.href} target="_blank" className={styles.link}>
                     <Image
                         src={referral.src}
                         alt={referral.alt}

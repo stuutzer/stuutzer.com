@@ -65,7 +65,11 @@
     .eyebrow,
     .subtitle{
         flex-wrap: wrap;
-        font-size: 18px;
+        font-size: 20px;
+    }
+
+    .subtitle{
+        margin: 0 0 6px;
     }
 
     .description{
@@ -90,11 +94,21 @@
 @media (max-width: 640px){
     .eyebrow,
     .subtitle{
-        font-size: 16px;
+        font-size: 18px;
+    }
+
+    .subtitle{
+        flex-direction: column;
+        gap: 2px;
+        margin: 0 0 16px;
+    }
+
+    .subtitle_divider{
+        display: none;
     }
 
     .description{
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .header{
