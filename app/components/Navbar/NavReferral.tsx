@@ -9,7 +9,7 @@ const referrals = [
     { src: "/lawrence.webp", alt: "Lawrence", href: "https://blackpri0r.dev" },
     { src: "/nic.webp", alt: "Nic", href: "https://nicnonac.com" },
     { src: "/treyson.webp", alt: "Treyson", href: "https://www.treysontsen.com" },
-    {src: "/leon.webp", alt: "Leon", href: "https://charoncs.github.io/"}
+    {src: "/leon.webp", alt: "Leon", href: "https://unlikeleon.com"}
 ]
 
 export default function NavReferral(){
