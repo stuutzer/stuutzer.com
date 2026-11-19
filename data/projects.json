@@ -1,0 +1,436 @@
+[
+  {
+    "id": "308cae9c-fce2-4eb0-a70d-2f0de9f1a915",
+    "slug": "gundam-vs-gundam-next-plus-hd-texture-pack-308cae9c",
+    "title": "GvG Next Plus HD UI Texture Pack",
+    "client": "",
+    "collaborators": [],
+    "category": "Graphic Design",
+    "date": "2026-11-02T00:00:00.000Z",
+    "description": "Work In Progress.",
+    "images": [
+      {
+        "src": "/projects/gundam-vs-gundam-next-plus-hd-texture-pack-308cae9c/01.webp",
+        "alt": "Home Screen w/HD Textures",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/projects/gundam-vs-gundam-next-plus-hd-texture-pack-308cae9c/02.webp",
+        "alt": "Home Screen w/Original Textures",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "id": "1c2d8a29-fc63-4b60-85f9-9a12dabbb7cb",
+    "slug": "sxu-2027-vod-thumbnails-1c2d8a29",
+    "title": "SXU 2026 VOD Thumbnails",
+    "client": "Standing Fierce",
+    "collaborators": [],
+    "category": "Graphic Design",
+    "date": "2026-11-01T00:00:00.000Z",
+    "description": "While most, if not all graphics aim to grab a viewer’s attention, YouTube thumbnails present an interesting problem where designers must account for the size of their graphic relative to the rest of the UI, and in turn compete against other designs by means of exaggerating the contrast, proportion and saturation of the elements in their thumbnails. \r\n\r\nHaving worked on the VOD thumbnails for Southern Cross Up (SXU) in 2025, I felt that I was blindsided by the specifications imposed by the medium and ended up creating a somewhat bland design. As such, I wanted to experiment with how I could create something visually interesting without forgetting practical intent. \r\n\r\nI designed the initial template with a few samples from EVO and TNS in mind - two patterns I noticed were the prevalence of centre-aligned elements and saturated, coloured borders. The former prevents information from being blocked off by UI elements like duration indicators, while the latter provides effective contrast for otherwise low-key graphics. I used these patterns in conjunction with a linear gradient and accent strokes to replicate the colour schemes of each game, adding an extra layer of visual communication to the viewer to overcome restrictions in thumbnail size.\r\n\r\nI think pushing the limits on such a restrictive medium made for a very interesting design exercise. When I was discussing the design with Ethan (Zer0Warc), he brought up the point of whether we were doing too much with the serif font and overall styling. I fully understood where he was coming from - it was a clear departure from our design from last year and might not suit everyone’s tastes. However, I felt that it was a design that gave SXU 2026 its own unique identity relative to contemporary tournaments that opt for bold, sans-serif fonts.\r\n\r\nWe iterated on the design a few times afterwards, but ended up settling on the original, as we felt the trade-off in legibility was worth it to create something unique. As a designer, I believe it’s imperative that we go along with the client’s goals and intent, but we should also strive to provide our informed opinion to create the best work possible.\r\n",
+    "images": [
+      {
+        "src": "/projects/sxu-2027-vod-thumbnails-1c2d8a29/01.webp",
+        "alt": "SXU 2026 TEKKEN8 - Top 8",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/projects/sxu-2027-vod-thumbnails-1c2d8a29/02.webp",
+        "alt": "SXU 2026 SF6 - Top 16",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/projects/sxu-2027-vod-thumbnails-1c2d8a29/03.webp",
+        "alt": "SXU 2025 TEKKEN 8 - Top 8",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "id": "9fe1ea92-631e-4185-b5a3-efa8c0e0c7c3",
+    "slug": "auec-26-club-expo-poster-roadmap-9fe1ea92",
+    "title": "AUEC '26 S2 Club Expo Poster/Roadmap",
+    "client": "Auckland University Esports Club",
+    "collaborators": [
+      "Leon Huang"
+    ],
+    "category": "Graphic Design",
+    "date": "2026-07-02T00:00:00.000Z",
+    "description": "Building off the visual aesthetic from the semester two brochure, Leon and I experienced a lot of creative block trying to figure out how to navigate the design. While it would've been easy to duplicate the brochure's theme one-to-one, we wanted to give it our all and create something visually distinct.\r\n\r\nI experimented with different ways to arrange the layout so that our schedule could make good use of the space and be visually intuitive. We decided to go with two columns of events separated by a downward arrow to signify the two halves of the semester. The hazard markings found throughout the poster were design cues I took from GraphersRock, who I'd been inspired by quite a lot over the past few months.\r\n\r\nThe colour palette we went with was an absolute home-run from Leon, in my opinion. We initially started off with the same black/purple/yellow scheme from the brochure, but using deep blue as our primary colour really established the distinctive look we set out to create.",
+    "images": [
+      {
+        "src": "/projects/auec-26-club-expo-poster-roadmap-9fe1ea92/01.webp",
+        "alt": "Club Expo Poster",
+        "width": 2160,
+        "height": 2700
+      },
+      {
+        "src": "/projects/auec-26-club-expo-poster-roadmap-9fe1ea92/02.webp",
+        "alt": "Roadmap",
+        "width": 2160,
+        "height": 2700
+      },
+      {
+        "src": "/projects/auec-26-club-expo-poster-roadmap-9fe1ea92/03.webp",
+        "alt": "Club Expo Poster Draft",
+        "width": 2160,
+        "height": 2700
+      },
+      {
+        "src": "/projects/auec-26-club-expo-poster-roadmap-9fe1ea92/04.webp",
+        "alt": "Roadmap Draft",
+        "width": 2160,
+        "height": 2700
+      }
+    ]
+  },
+  {
+    "id": "acb49aa0-0f13-4776-9ee1-1cf44fb48875",
+    "slug": "auec-26-semester-two-brochure-acb49aa0",
+    "title": "AUEC ‘26 S2 Brochure",
+    "client": "Auckland University Esports Club",
+    "collaborators": [
+      "Leon Huang"
+    ],
+    "category": "Graphic Design",
+    "date": "2026-07-01T00:00:00.000Z",
+    "description": "Taking inspiration from Tomio Fujisawa's promotional artwork for Tekken 5: DR, the cover design started out with the crowd drowned in a dark magenta hue, contrasted with a desaturated background and purple waves. I eventually hit a crossroads in terms of design direction, which led me to consult Leon to flesh out the concept.\r\n\r\nThe inner pages of the brochure revisit a concept Leon designed for our Fall/Winter merch release, where the AUEC logo extends across two pages as a visual bridge. Although we chose not to use it at the time because it didn't mesh well with Instagram's post format, it was probably a stroke of luck that we got to use it in a way that really puts it in the spotlight.\r\n",
+    "images": [
+      {
+        "src": "/projects/auec-26-semester-two-brochure-acb49aa0/01.webp",
+        "alt": "Front Cover",
+        "width": 1748,
+        "height": 2480
+      },
+      {
+        "src": "/projects/auec-26-semester-two-brochure-acb49aa0/02.webp",
+        "alt": "Inner Pages",
+        "width": 3496,
+        "height": 2480
+      },
+      {
+        "src": "/projects/auec-26-semester-two-brochure-acb49aa0/03.webp",
+        "alt": "Back Cover",
+        "width": 1748,
+        "height": 2480
+      },
+      {
+        "src": "/projects/auec-26-semester-two-brochure-acb49aa0/04.webp",
+        "alt": "Front Cover Draft",
+        "width": 1748,
+        "height": 2480
+      }
+    ]
+  },
+  {
+    "id": "3ffa5ce9-fada-4062-9403-ed3c9997aa4a",
+    "slug": "auec-x-devs-tft-poster-3ffa5ce9",
+    "title": "AUEC X DEVS TFT Poster",
+    "client": "Auckland University Esports Club / DEVS",
+    "collaborators": [],
+    "category": "Graphic Design",
+    "date": "2026-05-01T00:00:00.000Z",
+    "description": "The first iteration of this poster was created months ahead of the event while I was working in Sydney. I was engrossed in TFT at the time and had just blown $400 of my first paycheck on KDA Ahri Unbound. I also had lexycat's \"glitter ✩‧₊˚\" coming up quite often on my playlist back then, so I leaned very heavily on both those influences when working on this project.\r\n\r\nWhile I thought the poster was pretty dope, it became clear upon review that the choice of splash art would probably give people the wrong idea about the kind of people we were at the esports club. Taking a step back, I decided to feature Morgana over Ahri in light of the upcoming set.\r\n\r\nA few things I personally like about this new version: Using a blown-up copy of the foreground as the background worked out very well this time around. It's something I started doing after creating my current LinkedIn profile picture, and it's surprised me with how well it works every time since. Another thing would be repurposing the rectangular backing frame as a Claude CLI — I played around with the rectangle back in the first iteration to give the poster more structure, but this really tied the design together.\r\n",
+    "images": [
+      {
+        "src": "/projects/auec-x-devs-tft-poster-3ffa5ce9/01.webp",
+        "alt": "Instagram Poster",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/projects/auec-x-devs-tft-poster-3ffa5ce9/02.webp",
+        "alt": "Desktop Poster",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "src": "/projects/auec-x-devs-tft-poster-3ffa5ce9/03.webp",
+        "alt": "KDA Ahri Draft",
+        "width": 1080,
+        "height": 1350
+      }
+    ]
+  },
+  {
+    "id": "a79b117b-70a9-4a11-be2a-a480f736925c",
+    "slug": "squares-a79b117b",
+    "title": "squares",
+    "client": null,
+    "collaborators": [],
+    "category": "Graphic Design",
+    "date": "2026-03-01T00:00:00.000Z",
+    "description": "I got my start in graphic design playing with images while making youtube thumbnails on a platform called fotor, and this session really reminded me of how fun it was to just goof around and make dumb things without any particular goal in mind. It’s nice to do things like this every once in a while to kick back a bit.",
+    "images": [
+      {
+        "src": "/projects/squares-a79b117b/01.webp",
+        "alt": "granite slate marble man",
+        "width": 2560,
+        "height": 2560
+      },
+      {
+        "src": "/projects/squares-a79b117b/02.webp",
+        "alt": "baroque maroon sundae latte",
+        "width": 2560,
+        "height": 2560
+      },
+      {
+        "src": "/projects/squares-a79b117b/03.webp",
+        "alt": "shitty gold crayon",
+        "width": 2560,
+        "height": 2560
+      },
+      {
+        "src": "/projects/squares-a79b117b/04.webp",
+        "alt": "burple rectaclge",
+        "width": 2560,
+        "height": 2560
+      },
+      {
+        "src": "/projects/squares-a79b117b/05.webp",
+        "alt": "justinzord",
+        "width": 2560,
+        "height": 2560
+      }
+    ]
+  },
+  {
+    "id": "e1327993-facc-4715-971b-d6ab1fa7e25c",
+    "slug": "auec-26-semester-one-roadmap-e1327993",
+    "title": "AUEC '26 Semester One Roadmap ",
+    "client": "Auckland University Esports Club",
+    "collaborators": [],
+    "category": "Graphic Design",
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "A big part of why I volunteered at AUEC revolved around trying to push the envelope forward, especially when it came to design. The student club designers at the University of Auckland had some incredible creative direction at the time (pastel-colour/vector-art TANSA, scrapbook JAM+, etc.), and the 2025 AUEC design team had to put in a lot of work to catch up.\r\n\r\nWith that in mind, I wanted to experiment with different ways sequential information was visually presented to help us stand out from the crowd. I had just wrapped my internship in Sydney when working on this project, and while I mainly commute via bus back home in Auckland, the three months of commuting via train were still fresh on my mind at the time. This inspired me to look at train routes as a potential foundation for the roadmap's design.\r\n\r\nThe completed roadmap is based on the passenger information displays found on JR trains—the simplicity of the base design gave us a lot of room to add auxiliary information and personal flair. Although I had sprinkled it throughout the club website's staff dashboard, this was the first time we featured the highlighter yellow as an accent on a poster. The tape (inspired by Virgil's Luv is Rage 2 cover design) was something I added in after completing the majority of the poster, as I felt like everything felt a little visually stiff.\r\n\r\nOne important lesson I took from this is that things that initially seem like good ideas can be a pain in the backside down the line. With the introduction of a \"station schedule\" roadmap, our team decided to attach a station badge to each event poster. Although this worked out fine at the start, it began to impose a lot more restrictions on how we could use our space, given that we already had to make space for our logo, event details, sponsors, and so on.",
+    "images": [
+      {
+        "src": "/projects/auec-26-semester-one-roadmap-e1327993/01.webp",
+        "alt": "2026 Semester One Roadmap Instagram",
+        "width": 2160,
+        "height": 2700
+      },
+      {
+        "src": "/projects/auec-26-semester-one-roadmap-e1327993/02.webp",
+        "alt": "2026 Semester One Roadmap Desktop",
+        "width": 2560,
+        "height": 1440
+      }
+    ]
+  },
+  {
+    "id": "72417fc0-f61f-4c28-9e1d-99d2e06a88c2",
+    "slug": "capalyst-72417fc0",
+    "title": "Capalyst",
+    "client": "COMPSCI 399",
+    "collaborators": [
+      "6 Headed Git"
+    ],
+    "category": "Web Development",
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Prior to the start of COMPSCI 399, my friend Nathan, who I met through a hackathon the previous year, reached out to see if me and two others were interested in joining his project team. Seeing as my previous team from COMPSCI 235 (3 Headed Git) just so happened to be looking for three others, we joined up to form 6 Headed Git. \r\n\r\nOur team decided to build a showcase/awards website for previous COMPSCI 399 projects completed at the University of Auckland. Being responsible for front-end development and interface design, I prioritized keeping the spotlight on the showcased projects by opting for a sharp, minimalist aesthetic and keeping things as simple as possible. While I don’t think this was a bad idea in hindsight, I do believe my UI design for this project falls short when it comes to visual appeal. Form ever follows function, but this time it was trailing a little bit too far behind.\r\n\r\nAs far as university projects go, it was a welcome change to be working with a tech stack I was familiar with - developing an app in Next.JS and Prisma was like a sweet summer vacation compared to the trenches of Flask I had to deal with in 235 the previous year.\r\n\r\nThere isn’t really much else to say about this project from a technical standpoint seeing as it is a pretty straightforward web app, but the development process was quite the rollercoaster. Half of our team was embedded in some form of full-time work or equivalent at the time, so our overall output was quite low until deadlines started coming up. I’m not a big fan of the all-nighters we pulled fixing bugs and editing demo videos near the final submission, but I’d be lying if I said that I didn’t enjoy spending that time with my team.\r\n\r\nAs Kumanan said, “Maybe the real awards were the friends we made along the way”. \r\n\r\nBut we did win a real award as well. Best Computer Science Capstone Project, I think. \r\n",
+    "images": [
+      {
+        "src": "/projects/capalyst-72417fc0/01.webp",
+        "alt": "Homepage",
+        "width": 2560,
+        "height": 1280
+      },
+      {
+        "src": "/projects/capalyst-72417fc0/02.webp",
+        "alt": "Explore Page",
+        "width": 2560,
+        "height": 1280
+      },
+      {
+        "src": "/projects/capalyst-72417fc0/03.webp",
+        "alt": "Project Page",
+        "width": 2560,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "27694406-4ea4-4ad8-9ae3-9a71a97dd0e0",
+    "slug": "auec-25-26-design-overhaul-27694406",
+    "title": "AUEC '25/'26 Design Overhaul",
+    "client": "Auckland University Esports Club",
+    "collaborators": [],
+    "category": "Graphic Design",
+    "date": "2025-09-01T00:00:00.000Z",
+    "description": "Out of all the poster designs I worked on for AUEC, the most pain-in-the-ass project had to be AUEC x SESA Valorant Clash. I was pretty frustrated with management rolling back major aspects of the design (e.g. the event title) and repeatedly requesting minor adjustments (fonts, positioning, etc.) after each submission. But the biggest issue I encountered was the incompatibility between SESA's more conventional icon + wordmark logo and our club's logo, which was just \"Auckland University Esports Club\" formatted as plain text next to the club emblem.\r\n\r\nAfter reflecting on this project, I thought about the two primary issues behind it: a) a lack of established guidelines for how management should work with designers when requesting revisions, and b) the inflexibility of the existing logo. I saw these as symptoms of an immature design pipeline, and I communicated these points, alongside potential solutions, to the management team—the first of which was the design overhaul.\r\n\r\nSeeing as my main qualm with the previous logo was the lack of an appropriate textmark, I framed my proposal to focus on that aspect of the design instead of reinventing the wheel on the eagle icon. The original icon had a lot of charm to it, but its colour scheme and awkward shape made it difficult to format within a design. The kite-star found throughout the new design represents the Southern Cross, which I intended as an homage to—and an abstraction of—the original's NZ shape motif. The colour scheme was also adjusted to become more vibrant, presenting our club as more energetic.\r\n\r\nThis design proposal marked an important point in my time working with AUEC. I took the initiative to make a change in the organization that reduced the obstacles designers faced while working. The rebrand was adopted as the club's standard identity, and shaped how the design team approached projects going forward.\r\n",
+    "images": [
+      {
+        "src": "/projects/auec-25-26-design-overhaul-27694406/01.webp",
+        "alt": "Original Logo & Drafts",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "src": "/projects/auec-25-26-design-overhaul-27694406/02.webp",
+        "alt": "Design Update Proposal",
+        "width": 1920,
+        "height": 2460
+      }
+    ]
+  },
+  {
+    "id": "85a03465-1ff1-43a3-aa39-5fa8632b3ae5",
+    "slug": "rage-art-rumble-2025-round-2-poster-85a03465",
+    "title": "Rage Art Rumble 2025 Round 2 Poster",
+    "client": "Auckland University Esports Club",
+    "collaborators": [],
+    "category": "Graphic Design",
+    "date": "2025-09-01T00:00:00.000Z",
+    "description": "The work I'm most satisfied with usually came out of some kind of constraint. Whether it be working on a run-down laptop or a difficult design specification, figuring out how to circumvent such obstacles demands that you really pour yourself into the project instead of defaulting to the path of least resistance. A good example of this that comes to mind would be the posters for Rage Art Rumble - a fighting game event we organized at the University of Auckland under the Tekken World Tour (TWT) series of tournaments. \r\n\r\nIn order to be branded as a TWT event, promotional materials have to conform to a strict set of guidelines issued by Bandai Namco. These guidelines happen to also restrict the game assets usable down to the stock character art (which had to be front and center with little to no cropping) and a few other splash arts, which in turn imposes a substantial roadblock for our design workflow. \r\n\r\nThe primary inspiration for this particular poster was the cover of the December 2000 issue of PS2 Magazine, featuring Bryan Fury behind a rectangular grid. The cobalt blue paired with yellow accents alongside the barrage of assorted typography immediately made a strong impression in my mind, and I wanted to adapt as much of that feeling as possible onto my design in the hopes of our members feeling the same about Rage Art Rumble. \r\n\r\nDue to the character art having to be in the foreground, I decided to collaged one of our posters from a previous year with some of my vacation photos in the bottom half for a bit a laugh. With that said, playing around with the hue and noise gave it a grungy look reminiscent to the low-resolution LCD displays that Tekken would’ve been played on in the early 2000s. I also added some glitched streaks to give the poster a sense of motion in addition to providing contrast to the otherwise one-note colour palette. \r\n",
+    "images": [
+      {
+        "src": "/projects/rage-art-rumble-2025-round-2-poster-85a03465/01.webp",
+        "alt": "Instagram Poster",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/projects/rage-art-rumble-2025-round-2-poster-85a03465/02.webp",
+        "alt": "Desktop Poster",
+        "width": 2560,
+        "height": 1440
+      }
+    ]
+  },
+  {
+    "id": "b598b717-6369-4f46-a6e4-0529ec1f224d",
+    "slug": "auec-x-vuwg-showmatch-poster-b598b717",
+    "title": "AUEC X VUWG Showmatch Poster",
+    "client": "Auckland University Esports Club / VUWG",
+    "collaborators": [],
+    "category": "Graphic Design",
+    "date": "2025-04-01T00:00:00.000Z",
+    "description": "This was the first project I was assigned to after joining AUEC in the fall of 2025. In all honesty, the transition from UI design to graphic design was pretty jarring at first. I find that UI is very intuitive in the sense that your creative choices primarily come from adapting the intended functionality and user-flow of the application into something the user can interact with, whereas graphic design is built upon adapting an emotion or message that you want to convey to the audience.\r\n\r\nMy inexperience at the time is pretty evident by looking at this poster—the brief asked that I include assets from all three games in the design, so I spent the majority of my time composing a layout that was visually appealing. While I think the final arrangement does give it a very cinematic charm, the rest of the elements which accompany the central key art are relatively visually uninspiring and don't bring much to the table. In retrospect, I think I could have used the central composition as a launchpad to lean further into the movie poster aesthetic.\r\n\r\nThat isn't to undercut my work at the time, though. This poster marked the beginning of a period of rapid development as a designer through working at AUEC, and the shortcomings I experienced then laid the foundation for my growth today.",
+    "images": [
+      {
+        "src": "/projects/auec-x-vuwg-showmatch-poster-b598b717/01.webp",
+        "alt": "Instagram Poster",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/projects/auec-x-vuwg-showmatch-poster-b598b717/02.webp",
+        "alt": "Desktop Poster",
+        "width": 2560,
+        "height": 1440
+      }
+    ]
+  },
+  {
+    "id": "a83e73b8-28d3-4f8d-819f-0cb8420d0a9a",
+    "slug": "watshisname-stuutzer-com-a83e73b8",
+    "title": "watshisname-stuutzer.com",
+    "client": null,
+    "collaborators": [],
+    "category": "Web Development",
+    "date": "2025-03-01T00:00:00.000Z",
+    "description": "watshisname-stuutzer has a very special place in my heart as it was the first personal web development project that I saw through from start to finish. The works page was pretty lackluster and the website is barebones, but I paid a lot of attention to the responsive layout and shifting navbar.\r\n\r\nI used the font Aileron for every project I worked on back then, and most of my design cues were ripped from Off-White’s visuals. I like to think that I’ve matured as a designer since then, sure, but this was still pretty dope. \r\n",
+    "images": [
+      {
+        "src": "/projects/watshisname-stuutzer-com-a83e73b8/01.webp",
+        "alt": "Homepage",
+        "width": 2559,
+        "height": 1439
+      },
+      {
+        "src": "/projects/watshisname-stuutzer-com-a83e73b8/02.webp",
+        "alt": "Works Page",
+        "width": 2559,
+        "height": 1439
+      },
+      {
+        "src": "/projects/watshisname-stuutzer-com-a83e73b8/03.webp",
+        "alt": "Homepage (Mobile)",
+        "width": 500,
+        "height": 810
+      }
+    ]
+  },
+  {
+    "id": "f04a45cf-4278-4e47-80be-c6f20aa133af",
+    "slug": "tawhiti-forestry-website-f04a45cf",
+    "title": "Tawhiti Forestry Website",
+    "client": "Tawhiti Forestry",
+    "collaborators": [
+      "DelUXe Digital Design"
+    ],
+    "category": "Web Development",
+    "date": "2025-02-01T00:00:00.000Z",
+    "description": "DelUXe Digital Design was a web development agency I started with my friends Drew and Kumanan, who I'd worked with through COMPSCI 235 at university. We didn't start it with anything grand in mind — we wanted something we could use to build experience while studying.\r\n\r\nTawhiti Forestry, a New Zealand-based timber export-import merchant, contracted us to build a landing page alongside a brand design. To visually convey the company's core export-import enterprise, we set up two korus converging and diverging in the homepage's scrolling animation. This motif was inspired by Gordon Walters' abstracted koru designs, reflecting the company's origins, and recurs throughout the site.\r\n",
+    "images": [
+      {
+        "src": "/projects/tawhiti-forestry-website-f04a45cf/01.webp",
+        "alt": "Homepage",
+        "width": 2559,
+        "height": 1439
+      },
+      {
+        "src": "/projects/tawhiti-forestry-website-f04a45cf/02.webp",
+        "alt": "About Section",
+        "width": 2559,
+        "height": 1439
+      },
+      {
+        "src": "/projects/tawhiti-forestry-website-f04a45cf/03.webp",
+        "alt": "Services Page",
+        "width": 2559,
+        "height": 1439
+      }
+    ]
+  },
+  {
+    "id": "74d25d7e-79b3-4b21-afbd-04f153d34443",
+    "slug": "mtglossary-74d25d7e",
+    "title": "MTGlossary",
+    "client": null,
+    "collaborators": [],
+    "category": "Web Development",
+    "date": "2024-11-01T00:00:00.000Z",
+    "description": "MTGlossary was my first foray into building with React and developing with others in a team. My friend Simon and I went into this project with little to no knowledge about version control, product design or back-end development at the time, and it ended up being both an absolute slog and excellent learning experience.\r\n\r\nAlthough we didn't finish this project, I built the foundations of many technical and soft skills I use as a software engineer through my time working on this app. I still play Magic with Simon a lot, and I often lament the fact that there's no good glossary for Magic when a keyword I don't know pops up.\r\n\r\n",
+    "images": [
+      {
+        "src": "/projects/mtglossary-74d25d7e/01.webp",
+        "alt": "Deathtouch Definition",
+        "width": 2559,
+        "height": 1439
+      },
+      {
+        "src": "/projects/mtglossary-74d25d7e/02.webp",
+        "alt": "About Page",
+        "width": 2559,
+        "height": 1439
+      },
+      {
+        "src": "/projects/mtglossary-74d25d7e/03.webp",
+        "alt": "404 Page",
+        "width": 2559,
+        "height": 1439
+      },
+      {
+        "src": "/projects/mtglossary-74d25d7e/04.webp",
+        "alt": "Deathtouch Definition (Mobile)",
+        "width": 500,
+        "height": 810
+      },
+      {
+        "src": "/projects/mtglossary-74d25d7e/05.webp",
+        "alt": "Tutor Definition (Lightmode)",
+        "width": 2559,
+        "height": 1439
+      }
+    ]
+  }
+]
