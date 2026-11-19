@@ -2,12 +2,17 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import Project from "@/app/components/Project/Project";
-import { getProjectBySlug } from "@/lib/projects";
+import { getProjectBySlug, getProjectSummaries } from "@/lib/projects";
 import styles from "./page.module.css";
 
-export const dynamic = "force-dynamic";
-
 type Params = { slug: string };
+
+export const dynamicParams = false;
+
+export async function generateStaticParams(): Promise<Params[]> {
+  const projects = await getProjectSummaries();
+  return projects.map(({ slug }) => ({ slug }));
+}
 
 export async function generateMetadata({
   params,
